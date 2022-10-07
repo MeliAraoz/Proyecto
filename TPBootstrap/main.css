@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+    
+ 
+  
+#carouselInterval .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 80vh; 
+    overflow: hidden;
+}
+
+#carouselInterval .carousel-item::before {
+    content: "";
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5));
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+ 
+.carousel-caption {
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 40%;
+    margin-bottom: 12%;
+    right: auto;
+    bottom: 0;
+}
+
+#comprar {
+    background-color: rgb(21, 173, 67);
+}
+
+.card-tr{
+
+    transition: all ease-out 0.2s;
+}
+
+.card-tr:hover {
+    transform: scale(1.05);
+}
+
+#enviar {
+    background-color: rgb(126, 190, 61);
+    font-weight: bold;
+    color: white;
+}
+
+#mensaje {
+    resize: none;
+    font-size: 18px;
+}
+.text {
+    font-size: 12px;
+    color: rgb(138, 134, 134);
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, rgba(40,60,90,255), rgba(60,90,140,255));
+}
+
+footer ul {
+    list-style: none;
+}
